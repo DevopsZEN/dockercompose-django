@@ -6,7 +6,7 @@ On the file docker-compose.yml
 
 The file will look like this:
 
-
+"
 version: '3'
 
 services:
@@ -21,3 +21,4 @@ services:
       - "8000:8000"
     depends_on:
       - db
+"
